@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">DEL-COMMERCE</a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="#">DELCO</a></li>
+                <li><a href="#">DELCO</a></li>
+                <li><a href="#">COMMERCE</a></li>
+                <li><a href="#">DELCO</a></li>
+                <li><a href="#">DELCO</a></li>
+            </ul>
+        </div>
+        <img src="img.png" alt="menu-hamburger" class="menu-hamburger">
+
+    </nav>
+    <header> <img src="img/1.jpg" alt=""></header>
+
+</body>
+
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const naviLinks = document.querySelector(".nav-links")
+
+        menuHamburger.addEventListener('click',()=>{
+        naviLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>
