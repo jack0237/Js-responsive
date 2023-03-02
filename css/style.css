@@ -8,12 +8,10 @@
 body{
     font-family: 'Poppins';
 }
-
 header {
     height: 90.6vh;
     background-size: no-repeat center center/cover;
 }
-
 .navbar{
     position: absolute;
     padding: 50px;
@@ -23,29 +21,23 @@ header {
     box-sizing: border-box;
     align-items: center;
 }
-
 .navbar a {
     color: white;
 }
-
 .navbar .logo {
     font-size: 2em;
     font-weight: bold;
 }
-
 .navbar .nav-links ul {
     display: flex;
 }
-
 .navbar .nav-links ul li {
     margin: 0 25px;
 }
-
 .navbar .nav-links ul li.active a {
     color: #ed3c57;
     font-weight: 600;
 }
-
 .navbar .menu-hamburger {
     display: none;
     position: absolute;
@@ -53,6 +45,7 @@ header {
     right: 30px;
     width: 35px;
 }
+
 
 @media screen and (max-width: 900px) {
     .navbar{
